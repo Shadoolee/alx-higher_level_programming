@@ -1,6 +1,4 @@
 #!/usr/bin/python3
-
-
 """
 Module for defining the Rectangle class.
 
@@ -12,6 +10,9 @@ Example:
     >>> print(my_rectangle.__dict__)
     {}
 """
+
+"""Defines a Rectangle class."""
+
 
 class Rectangle:
     """
