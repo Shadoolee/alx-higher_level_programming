@@ -11,6 +11,9 @@ Example:
     {}
 """
 
+"""Defines a Rectangle class."""
+
+
 class Rectangle:
     """
     Empty class representing a rectangle.
