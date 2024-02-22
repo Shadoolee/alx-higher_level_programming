@@ -3,10 +3,10 @@
 def safe_print_integer(value):
     """Print an interger with "{:d}".format().
     Args:
-	value (int): The interger to print.
+        value (int): The interger to print.
     Returns:
-	If a TypeError or ValueError occurs - False.
-	Otherwise - True
+        If a TypeError or ValueError occurs - False.
+        Otherwise - True
     """
     try:
         print("{:d}".format(value))
