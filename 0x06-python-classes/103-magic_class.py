@@ -2,18 +2,17 @@
 
 """Define a MagicClass matching exactly a bytecode provided by Holberton."""
 
-
 import math
 
 
-class MagicClass
+class MagicClass:
     """Represent a circle."""
 
     def __init__(self, radius=0):
         """Initialize a MagicClass.
 
         Arg:
-             radius (float or int): The radius of the new MagicClass.
+            radius (float or int): The radius of the new MagicClass.
         """
         self.__radius = 0
         if type(radius) is not int and type(radius) is not float:

@@ -4,7 +4,7 @@
 
 
 class Node:
-    """Represnt a node in a singly-linked list."""
+    """Represent a node in a singly-linked list."""
 
     def __init__(self, data, next_node=None):
         """Initialize a new Node.
@@ -24,7 +24,7 @@ class Node:
     @data.setter
     def data(self, value):
         if not isinstance(value, int):
-            raise TypeError("data must be an interger")
+            raise TypeError("data must be an integer")
         self.__data = value
 
     @property

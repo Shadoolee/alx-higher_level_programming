@@ -1,10 +1,10 @@
 #!/usr/bin/python3
 
-"""Define a class Sqaure."""
+"""Define a class Square."""
 
 
-class Sqaure:
-    """Represent a sqaure."""
+class Square:
+    """Represent a square."""
 
     def __init__(self, size=0):
         """Initialize a new square.
@@ -19,5 +19,5 @@ class Sqaure:
         self.__size = size
 
     def area(self):
-        """Return the current area of the sqaure."""
+        """Return the current area of the square."""
         return (self.__size * self.__size)
